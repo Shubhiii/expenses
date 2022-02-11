@@ -1,0 +1,35 @@
+.form-control {
+	width: calc(100% / 3);
+
+	&.invalid {
+		input {
+			border-color: red;
+			background: #ffd6d6;
+		}
+	}
+
+	label {
+		font-weight: bold;
+		margin-bottom: 0.5rem;
+		display: block;
+	}
+
+	input {
+		font: inherit;
+		padding: 0.5rem;
+		border-radius: 4px;
+		border: none;
+		height: 40px;
+		width: 100%;
+		border: 1px solid #fff;
+		outline: none;
+	}
+
+	p {
+		font-size: 12px;
+		// font-weight: bold;
+		color: #ce1010;
+		// font-style: italic;
+		margin: 0.3rem 0 0;
+	}
+}
